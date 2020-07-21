@@ -10,7 +10,26 @@
     </head>
     <body>
        
-    
+    <nav>
+       <label>Arthur Turingan Jr.</label>
+
+       <div id="burger" class="burger">
+           <div class="line"></div>
+           <div class="line"></div>
+           <div class="line"></div>
+       </div>
+    </nav>
+
+    <div id="slide" class="slide">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="work.html"><li>Work</li></a>
+            <a href="contact.html"><li>Contacts</li></a>
+            <a href="#"><li>Soon</li></a>
+            
+        </ul>
+    </div>
 
 <div id="ex1" class="modal">  
         <div class="head">
@@ -243,6 +262,14 @@
    
 </body>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script> 
+$(document).ready(function(){
+  $("#burger").click(function(){
+    $("#slide").slideToggle("slow");
+  });
+});
+</script>
 
 </html>
