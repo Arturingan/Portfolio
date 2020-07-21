@@ -458,11 +458,11 @@ nav {
     align-items: center;
   }
   .aboutpic-left {
-    width: 400px;
+    width: 350px;
     height: auto;
   }
   .aboutpic-right {
-    width: 400px;
+    width: 350px;
     font-size: 14px;
   }
 }
