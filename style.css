@@ -180,9 +180,9 @@ body {
               cursor: pointer;
               height: 160px;
               width: 160px;
-              border: solid 3px #08f78e;
-                box-shadow: 0 0 10px #08f78e, 0 0 40px #08f78e, 0 0 80px #08f78e;
-                background-color:#08f78e;
+              border: solid 3px #000000;
+                box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
+                background-color:#000000;
     }
       .d {
         width: 150px;
@@ -307,6 +307,7 @@ body {
  /* About Me  */
  .aboutme {
   display: flex;
+  margin-top: 50px;
 
 }
       
@@ -338,7 +339,7 @@ body {
   color: white;
   font-size: 30px;
   font-weight: 800;
-  margin-left: 150px;
+  margin: 0px 0px 30px 150px
 
 }
   .name1 {
@@ -390,14 +391,14 @@ body {
     width: 500px;
     margin: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 5px;
-    line-height: 40px;
+    line-height: 35px;
     text-align: center;
     align-self: center;
   }
-    .aboutpic-right > p {
+    .aboutpic-right > span {
       color: #08f78e;
     }
 
@@ -434,7 +435,7 @@ body {
   
     .card1 {
       height: 100px;
-      width: auto;
+      width: 200px;
       color: white;
       background-color: #08f78e;
       font-size: 20px;
@@ -467,6 +468,11 @@ body {
     padding: 30px;
     box-shadow: 0 0 10px #08f78e;
     }
+
+      .card-name {
+        color:#08f78e;
+        text-shadow: 0 0 10px #08f78e, 0 0 40px #08f78e, 0 0 80px #08f78e;
+      }
 
 @media screen and (max-width: 768px) {
   .card {
@@ -551,6 +557,8 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+
 }
 
 /* WORK */
@@ -563,6 +571,7 @@ body {
 }
 
   .work-left {
+    width: 400px;
     align-self: center;
     color: white;
     height: auto;
@@ -614,6 +623,7 @@ body {
     width: 900px;
     height: auto;
     position: relative;
+    font-family: 'Roboto', sans-serif;
   }
 
   .work-content {
@@ -633,9 +643,18 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    
+    padding: 100px;
    
   }
+
+    .work-content >  p {
+      text-align: center;
+      margin: 5px 0;
+    }
+
+      .work-content > .work-tools {
+      margin-top: 50px;
+    }
 
   .work-left:hover ~ .work-right > .work-content{
     box-shadow: 0 0 10px #08f78e, 0 0 40px #08f78e, 0 0 80px #08f78e;       
@@ -694,6 +713,10 @@ body {
   position: relative;
  
   
+}
+.work-content {
+  padding: 0;
+  font-size: 12px;
 }
 
 }
