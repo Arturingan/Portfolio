@@ -13,14 +13,14 @@
     <nav>
        <label>Arthur Turingan Jr.</label>
 
-       <div id="burger" class="burger">
+       <div class="burger">
            <div class="line"></div>
            <div class="line"></div>
            <div class="line"></div>
        </div>
     </nav>
 
-    <div id="slide" class="slide">
+    <div class="slide">
         <ul>
             <a href="index.html"><li>Home</li></a>
             <a href="about.html"><li>About</li></a>
@@ -108,7 +108,8 @@
     
                 <div class="card2">
                     <p class="card-name">AMA University </p>
-                   <p>Bachelor of Science in Computer Science</p> 
+                   <p>Bachelor of Science in Computer Science</p>
+                   <p>2011 - 2015</p>  
                 </div>
             </div>
     
@@ -259,17 +260,15 @@
             </div>
         </div>
     </div>
+
+    <button onclick="scrollToTop()"> 
+        <img src="images/up.png" alt="">
+    </button> 
    
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script> 
-$(document).ready(function(){
-  $("#burger").click(function(){
-    $("#slide").slideToggle("slow");
-  });
-});
-</script>
+<script src="navslide.js"></script>
 
 </html>

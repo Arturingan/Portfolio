@@ -424,11 +424,12 @@ nav {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  width: auto;
 
 }
   .aboutpic-left {
     height: 500px;
-    width: 500px;
+    width: 550px;
     margin: 20px;
   }
     .aboutpic-left > img {
@@ -436,7 +437,7 @@ nav {
     }
   .aboutpic-right {
     height: auto;
-    width: 500px;
+    width: 550px;
     margin: 20px;
     color: white;
     font-size: 16px;
@@ -733,6 +734,7 @@ nav {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 
 .work1 > .line {
@@ -769,13 +771,12 @@ nav {
 
 }
 
-
-
 .form-container {
   display: flex;
   justify-content: flex-start;
   padding: 10px 100px;
   flex-direction: column;
+  margin-top: 50px;
   
 }
 
@@ -935,3 +936,18 @@ footer {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+
+button {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #08f78e;
+  padding: 2px;
+  cursor: pointer;
+ 
+}
+
+  button > img {
+    text-align: center;
+  }
