@@ -293,7 +293,7 @@ body {
     position: absolute;
     top: 50px;
     left: 250px;
-    width: 200px;
+    width: 400px;
     animation-name: right-slide;
     animation-duration: 2s;
   }
