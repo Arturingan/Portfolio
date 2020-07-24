@@ -948,7 +948,7 @@ button {
   bottom: 0;
   z-index: 999;
   margin: 0 25px 25px 0;
-  opacity: .7;
+  opacity: .5;
 }
 
 button:hover {
