@@ -957,6 +957,7 @@ button {
 button:hover {
   box-shadow: 0 0 10px #08f78e, 0 0 40px #08f78e, 0 0 80px #08f78e;
   transition: .5s;
+  opacity: 1;
 }
 
  
