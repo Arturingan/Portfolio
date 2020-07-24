@@ -291,6 +291,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   color: #08f78e;
+  text-shadow: 0 0 10px #08f78e, 0 0 40px #08f78e, 0 0 80px #08f78e;
   border-bottom: solid 1px #08f78e;
   display: none;
 }
@@ -449,6 +450,7 @@ nav {
   }
     .aboutpic-right > span {
       color: #08f78e;
+      
     }
 
 @media screen and (max-width: 768px) {
@@ -877,7 +879,7 @@ display: flex;
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 100px;
+
   
 }
 
@@ -940,14 +942,19 @@ footer {
 button {
   height: 40px;
   width: 40px;
-  display: flex;
-  justify-content: flex-end;
   background-color: #08f78e;
   padding: 2px;
   cursor: pointer;
- 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  margin: 0 25px 25px 0;
 }
 
-  button > img {
-    text-align: center;
-  }
+button:hover {
+  box-shadow: 0 0 10px #08f78e, 0 0 40px #08f78e, 0 0 80px #08f78e;
+  transition: .5s;
+}
+
+ 
