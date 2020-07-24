@@ -849,6 +849,7 @@ border: 1px solid #08f78e;
 
 .social {
 display: flex;
+
 }  
 .follow {
   font-size: 25px;
@@ -891,9 +892,7 @@ footer {
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    padding: 10px 50px;
-    justify-content: center;
-    align-items: center;
+   align-items: center;
   }
 
   .follow {
