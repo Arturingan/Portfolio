@@ -290,11 +290,19 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #08f78e;
-  text-shadow: 0 0 10px #08f78e, 0 0 40px #08f78e, 0 0 80px #08f78e;
-  border-bottom: solid 1px #08f78e;
   display: none;
 }
+    nav > a {
+      color: #08f78e;
+      cursor: pointer;
+      text-decoration: none;
+      text-shadow: 0 0 10px #08f78e, 0 0 40px #08f78e, 0 0 80px #08f78e;
+    }
+
+    nav > a:hover {
+      transition: .5s;
+      border-bottom: solid 1px #08f78e;
+    }
 
 .burger:hover {
   background-color: rgb(5, 17, 6);
